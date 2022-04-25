@@ -9,13 +9,16 @@ int main()
 {
 int g;
 srand(time(NULL));
+
 int sizes= 99;
 int arr[sizes];
 int arr2[9] {0};
+
+
 for (int i = 0; i < sizes; ++i)
 {
 
-	arr[i]=rand()%10;
+	arr1[i]=rand()%10;
 
 }
 
@@ -24,7 +27,7 @@ for (int i = 0; i < sizes; ++i)
 
 	for (int j = 0; j < 10; ++j)
 	{
-		if (arr[i]==j){
+		if (arr1[i]==j){
 
 			arr2[j]+=1;
 
