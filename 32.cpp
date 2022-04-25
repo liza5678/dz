@@ -9,9 +9,12 @@ int main()
 {
 int g;
 srand(time(NULL));
-int len= 500;
-int arr1[sizes];
-int arr2[10] {0};
+
+int sizes= 99;
+int arr[sizes];
+int arr2[9] {0};
+
+
 for (int i = 0; i < sizes; ++i)
 {
 
